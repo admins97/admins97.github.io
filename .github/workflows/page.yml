@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      VISIT_NUM: 10
+      VISIT_NUM: 'Minsu'
     
     steps:
       - uses: actions/checkout@v3
