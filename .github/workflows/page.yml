@@ -19,7 +19,7 @@ jobs:
       VISIT_NUM: 'Minsu'
     
     steps:
-      - uses: actions/checkout@v3
+      # - uses: actions/checkout@v3
 
       - name: Install dependencies
         run: |
