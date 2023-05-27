@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Welcome1
-      - run: echo 'Welcome to my homepage!'
+        run: echo 'Welcome to my homepage!'
   pwd:
     runs-on: ubuntu-latest
     steps: 
       - name: PWD
-      - run: pwd
+        run: pwd
   # build:
   #   runs-on: ubuntu-latest
   #   env:
